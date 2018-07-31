@@ -49,8 +49,7 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>questioner</artifactId>
             <version>${project.version}</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/LogBlockQuestioner.jar</systemPath>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.sk89q</groupId>
